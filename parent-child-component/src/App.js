@@ -1,27 +1,18 @@
-import React from 'react';
-import Footer from "./Footer"
+import React from "react"
+
+import Header from "./components/Header.js"
+import Footer from "./Footer.js"
+import MainContent from "./components/MainContent.js"
 
 function App() {
   return (
     <div>
-        <nav>
-            <h1>
-              Hello a third time!
-            </h1>
-            <ul>
-              <li>Korea</li>
-              <li>China</li>
-              <li>Japan</li>
-            </ul>
-        </nav>
-        <main>
-          <p>This is where most of my content will go...</p>
-        </main>
+        <Header />
+        <MainContent />
         <Footer />
     </div>
   )
 
-
 }
 
-export default App;
+export default App
